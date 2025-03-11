@@ -1,0 +1,15 @@
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\bin\Debug\net8.0\lab-6-typing-trainer-elorasmith.exe
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\bin\Debug\net8.0\lab-6-typing-trainer-elorasmith.deps.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\bin\Debug\net8.0\lab-6-typing-trainer-elorasmith.runtimeconfig.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\bin\Debug\net8.0\lab-6-typing-trainer-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\bin\Debug\net8.0\lab-6-typing-trainer-elorasmith.pdb
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\lab-6-typing-trainer-elorasmith.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\lab-6-typing-trainer-elorasmith.AssemblyInfoInputs.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\lab-6-typing-trainer-elorasmith.AssemblyInfo.cs
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\lab-6-typing-trainer-elorasmith.csproj.CoreCompileInputs.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\lab-6-typing-trainer-elorasmith.sourcelink.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\lab-6-typing-trainer-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\refint\lab-6-typing-trainer-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\lab-6-typing-trainer-elorasmith.pdb
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\lab-6-typing-trainer-elorasmith.genruntimeconfig.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-6-typing-trainer-elorasmith\obj\Debug\net8.0\ref\lab-6-typing-trainer-elorasmith.dll

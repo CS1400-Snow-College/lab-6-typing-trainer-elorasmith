@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab-6-typing-trainer-elorasmith", "lab-6-typing-trainer-elorasmith.csproj", "{3FF68806-E233-EDF3-E400-A2A63C5DDCAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FF68806-E233-EDF3-E400-A2A63C5DDCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF68806-E233-EDF3-E400-A2A63C5DDCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF68806-E233-EDF3-E400-A2A63C5DDCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF68806-E233-EDF3-E400-A2A63C5DDCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A25B013-154C-434C-A69C-EA9B743D1C1E}
+	EndGlobalSection
+EndGlobal
