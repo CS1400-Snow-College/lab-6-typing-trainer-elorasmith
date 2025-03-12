@@ -2,9 +2,11 @@
 
 // Elora Smith, 3/11/25, Lab 6 Typing Trainer
 
+using System.Diagnostics;
+
 Console.Clear();
 Console.ForegroundColor = ConsoleColor.White;
-string instructions = "Welcome to Typing Trainer! Type the challenge text that appears on the following line. I will report your speed and accuracy.";
+string instructions = "Welcome to Typing Trainer! Type the challenge text that appears on the following line, and then press enter.";
 Console.WriteLine(instructions);
 Console.WriteLine();
 
@@ -18,16 +20,17 @@ string[] phrases = {
 
 int row = Console.CursorLeft;
 int column = Console.CursorTop;
-
+Stopwatch stopwatch = new Stopwatch();
 Random rand = new Random();
 int phrase = rand.Next(0,5);
+int errors = 0;
+int correct = 0;
 string challengePhrase = phrases[phrase];
 Console.WriteLine(challengePhrase);
 Console.SetCursorPosition(0, 2);
 
-int errors = 0;
-int correct = 0;
 char temp = Console.ReadKey(true).KeyChar;
+stopwatch.Start();
 for (int i = 0; i < challengePhrase.Count(); i++)
 {
     if (temp == challengePhrase[i])
@@ -44,3 +47,9 @@ for (int i = 0; i < challengePhrase.Count(); i++)
     }
     temp = Console.ReadKey(true).KeyChar;
 }
+stopwatch.Stop();
+double seconds = stopwatch.ElapsedMilliseconds/1000.0;
+
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine();
+Console.WriteLine($"Your phrase was - words: you took {seconds} seconds and made {errors} mistakes.\nYour accuracy was -%!");
