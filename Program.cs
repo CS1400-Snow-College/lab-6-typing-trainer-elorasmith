@@ -3,6 +3,7 @@
 // Elora Smith, 3/11/25, Lab 6 Typing Trainer
 
 Console.Clear();
+Console.ForegroundColor = ConsoleColor.White;
 string instructions = "Welcome to Typing Trainer! Type the challenge text that appears on the following line. I will report your speed and accuracy.";
 Console.WriteLine(instructions);
 Console.WriteLine();
@@ -15,6 +16,31 @@ string[] phrases = {
     "Posterity! You will never know how much it cost the present generation to preserve your freedom! I hope you will make good use of it. -John Adams"
 };
 
+int row = Console.CursorLeft;
+int column = Console.CursorTop;
+
 Random rand = new Random();
 int phrase = rand.Next(0,5);
-Console.WriteLine(phrases[phrase]);
+string challengePhrase = phrases[phrase];
+Console.WriteLine(challengePhrase);
+Console.SetCursorPosition(0, 2);
+
+int errors = 0;
+int correct = 0;
+char temp = Console.ReadKey(true).KeyChar;
+for (int i = 0; i < challengePhrase.Count(); i++)
+{
+    if (temp == challengePhrase[i])
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write(challengePhrase[i]);
+        correct++;
+    }
+    else if (temp != challengePhrase[i])
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write(challengePhrase[i]);
+        errors++;
+    }
+    temp = Console.ReadKey(true).KeyChar;
+}
