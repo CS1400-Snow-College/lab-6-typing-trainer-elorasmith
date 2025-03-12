@@ -50,9 +50,7 @@ for (int i = 0; i < challengePhrase.Count(); i++)
 stopwatch.Stop();
 double seconds = stopwatch.ElapsedMilliseconds/1000.0;
 string[] words = challengePhrase.Split(' ');
-double accuracy = Math.Floor((double)(correct)/challengePhrase.Length*100);
+double accuracy = Math.Floor((double)correct/challengePhrase.Length*100);
 Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine();
-Console.WriteLine($"Your phrase was {words.Count()} words. You took {seconds} seconds and made {errors} mistakes.\nYour accuracy was {accuracy}%!");
-Console.WriteLine(correct);
-Console.WriteLine(challengePhrase.Length);
+Console.WriteLine($"Your phrase was {words.Count()} words. You took {seconds} seconds and made {errors} mistakes.\nYour accuracy was {accuracy}%.");
